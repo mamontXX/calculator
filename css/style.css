@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:#87CEEB;
+}
+
+.calculator{
+	margin: 90px auto;
+	width: 360px;
+	height: 590px;
+	box-shadow: 0 16px 30px rgba(0,0,0,0.75);
+}
+
+.header{
+	background-color: black;
+	height: 100px;
+	padding-left: 29px;
+	padding-right: 39px;
+	padding-top: 27px;
+	padding-bottom: 17px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align:right;
+}
+
+.account{
+	width: 100%;
+	background: transparent;
+	color: thistle;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	text-align: right;
+}
+
+
+.result{
+	width: 100%;
+	margin-top: 20px;
+	background: transparent;
+	color: thistle;
+	border: none;
+	outline: none;
+	font-size: 60px;
+	text-align: right;
+}
+
+.result::placeholder{
+	color: #ffffff;
+}
+
+.main{
+	height: 500px;
+	display: table;
+}
+
+.btn{
+	width: 90px;
+	height: 90px;
+	padding: 40px;
+	border: none;
+	font-size: 20px;
+	color: black;
+}
+
+.btn-big{
+	position: absolute;
+	width: 180px;
+	height: 90px;
+	padding: 40px;
+	font-size: px;
+	border: none;
+	outline: none;
+	border-bottom-right-radius: 5px;
+	background-color: blueviolet;
+}
+
+.btn:nth-child(17){
+	border-bottom-left-radius: 5px;
+}
+
+.btn-sum{
+	background-color: #000080;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.btn:hover, .btn-big:hover , .btn-sum:hover{
+	filter: brightness(95%);
+	-webkit-filter: brightness(95%) ;
+}
